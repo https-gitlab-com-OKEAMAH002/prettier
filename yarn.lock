@@ -4480,7 +4480,7 @@ __metadata:
 
 "fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -7475,7 +7475,7 @@ __metadata:
     unified: 9.2.2
     url-or-path: 2.3.0
     vnopts: 2.0.0
-    wcwidth.js: 1.1.2
+    wcwidth.js: 2.0.0
     yaml-unist-parser: 2.0.1
   bin:
     prettier: ./bin/prettier.cjs
@@ -7814,7 +7814,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -7827,7 +7827,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^2.0.0-next.5#~builtin<compat/resolve>":
   version: 2.0.0-next.5
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -8777,7 +8777,7 @@ __metadata:
 
 "typescript@patch:typescript@5.5.2#~builtin<compat/typescript>":
   version: 5.5.2
-  resolution: "typescript@patch:typescript@npm%3A5.5.2#~builtin<compat/typescript>::version=5.5.2&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A5.5.2#~builtin<compat/typescript>::version=5.5.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -9038,10 +9038,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wcwidth.js@npm:1.1.2":
-  version: 1.1.2
-  resolution: "wcwidth.js@npm:1.1.2"
-  checksum: 9b51308e1c34db7f03c25b807dbfbaf19680e5074ab43b2cc19e934c814aaed06a9cc5025090d69bb2a3049858cfed34a141edad1999b6b49e2f6ad1fbd1ae9a
+"wcwidth.js@npm:2.0.0":
+  version: 2.0.0
+  resolution: "wcwidth.js@npm:2.0.0"
+  checksum: 8/411a2084fafa05e2f389fe7bc52bbf6cb557046d9ab7689696748492f8c821205145f51ca74fb92311683e5b2969e0d93dee65c6791975015a2d11df2adf212e
   languageName: node
   linkType: hard
 
