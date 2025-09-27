@@ -2257,12 +2257,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"angular-html-parser@npm:5.2.0":
-  version: 5.2.0
-  resolution: "angular-html-parser@npm:5.2.0"
-  dependencies:
-    tslib: "npm:^2.6.2"
-  checksum: c232f23ff7b27bcfe3a4b6c260842d55db4eb85777fbe64a8c414f7ba8445ac61621706876f479a5c084b08d8f75fa4aa143af8bf19cf4ced917c8e87c83c7fc
+"angular-html-parser@npm:9.3.0":
+  version: 9.3.0
+  resolution: "angular-html-parser@npm:9.3.0"
+  checksum: 8/2a23fc54bf0ed88f3ead6dca746bef86e2a1bc14319801fbc909fe2e1c162380d22c1b779027e45c7e8b4e09a2fb2ede27756c184360c1feab14462f4b6e8b94
   languageName: node
   linkType: hard
 
@@ -4480,7 +4478,7 @@ __metadata:
 
 "fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -7379,7 +7377,7 @@ __metadata:
     acorn: 8.12.0
     acorn-jsx: 5.3.2
     angular-estree-parser: 10.0.3
-    angular-html-parser: 5.2.0
+    angular-html-parser: 9.3.0
     benchmark: 2.1.4
     browserslist: 4.23.1
     browserslist-to-esbuild: 2.1.1
@@ -7814,7 +7812,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -7827,7 +7825,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^2.0.0-next.5#~builtin<compat/resolve>":
   version: 2.0.0-next.5
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -8777,7 +8775,7 @@ __metadata:
 
 "typescript@patch:typescript@5.5.2#~builtin<compat/typescript>":
   version: 5.5.2
-  resolution: "typescript@patch:typescript@npm%3A5.5.2#~builtin<compat/typescript>::version=5.5.2&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A5.5.2#~builtin<compat/typescript>::version=5.5.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
