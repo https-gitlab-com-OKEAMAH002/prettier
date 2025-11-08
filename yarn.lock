@@ -474,6 +474,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cacheable/memoize@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@cacheable/memoize@npm:2.0.3"
+  dependencies:
+    "@cacheable/utils": ^2.0.3
+  checksum: 8/9a7b504657f8ebb8e0539d712db06fa8cfe6537a303ec7c0026f4eb2fc10914d09c9c687ad8fa37d85c5a636ab0d1f06617b281812da25c6ea63dfc5aeb964d2
+  languageName: node
+  linkType: hard
+
+"@cacheable/memory@npm:^2.0.3":
+  version: 2.0.4
+  resolution: "@cacheable/memory@npm:2.0.4"
+  dependencies:
+    "@cacheable/utils": ^2.2.0
+    "@keyv/bigmap": ^1.1.0
+    hookified: ^1.12.2
+    keyv: ^5.5.3
+  checksum: 8/7631e324506b9e7a5c717a2f0e115526dfbb3a4a6b41d7a474d7986616ca0900fccf6fa901a350fd9645fced146380fc7b9aac7cc11956633e55428de0d42cb4
+  languageName: node
+  linkType: hard
+
+"@cacheable/utils@npm:^2.0.3, @cacheable/utils@npm:^2.1.0, @cacheable/utils@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@cacheable/utils@npm:2.2.0"
+  dependencies:
+    keyv: ^5.5.3
+  checksum: 8/58611ab2d3caa8062633b5feb913767d210ca7d4fd2b620c29420e9301d1de208e1afe47b71a1738823ec430a9ebd6193366d0120096ad6153ec7a5da8f1bf7a
+  languageName: node
+  linkType: hard
+
 "@cspell/cspell-bundled-dicts@npm:8.8.4":
   version: 8.8.4
   resolution: "@cspell/cspell-bundled-dicts@npm:8.8.4"
@@ -1717,6 +1747,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keyv/bigmap@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@keyv/bigmap@npm:1.1.0"
+  dependencies:
+    hookified: ^1.12.2
+  peerDependencies:
+    keyv: ^5.5.3
+  checksum: 8/cd47d4bdeff03948a7a0284ecc8768892fe37153c9cd7268f06e81ba6612d18aeb89e7bde384054a64b686a2603c027f419fdb2d43790ce4cf81bb1a21b5e185
+  languageName: node
+  linkType: hard
+
+"@keyv/serialize@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@keyv/serialize@npm:1.1.1"
+  checksum: 8/2963ba90a6ca1cad7e4c1ff2de09326841eba4bca90dc52508fdc92ef88972ffd8ae8be48de80cfa9a864617955f146bb6dca700f5790118fefd74880d432ca7
+  languageName: node
+  linkType: hard
+
 "@mdn/browser-compat-data@npm:^5.2.34, @mdn/browser-compat-data@npm:^5.5.19":
   version: 5.5.33
   resolution: "@mdn/browser-compat-data@npm:5.5.33"
@@ -2746,6 +2794,20 @@ __metadata:
     tar: "npm:^6.1.11"
     unique-filename: "npm:^3.0.0"
   checksum: b71fefe97b9799a863dc48ac79da2bd57a724ff0922fddd3aef4f3b70395ba00d1ef9547a0594d3d6d3cd57aeaeaf4d938c54f89695053eb2198cf8758b47511
+  languageName: node
+  linkType: hard
+
+"cacheable@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "cacheable@npm:2.1.1"
+  dependencies:
+    "@cacheable/memoize": ^2.0.3
+    "@cacheable/memory": ^2.0.3
+    "@cacheable/utils": ^2.1.0
+    hookified: ^1.12.2
+    keyv: ^5.5.3
+    qified: ^0.5.0
+  checksum: 8/c0249cbbf2a2b12e0e741704e91b3082515cf52d44ca58cda76da77e41884053995042385f01a71b9fb36cd45871937db20cbbce48d2542a40141cf4a9162a50
   languageName: node
   linkType: hard
 
@@ -4308,12 +4370,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-entry-cache@npm:9.0.0":
-  version: 9.0.0
-  resolution: "file-entry-cache@npm:9.0.0"
+"file-entry-cache@npm:11.1.0":
+  version: 11.1.0
+  resolution: "file-entry-cache@npm:11.1.0"
   dependencies:
-    flat-cache: "npm:^5.0.0"
-  checksum: 6b0ddc88e087e758fbc9c75e7f5f07982f02a8fc555c70561faff37ddce9f03e7273f62844beb5a0ee84685f6c62b036429227718687219a35fea57f3331f1aa
+    flat-cache: ^6.1.17
+  checksum: 8/c6788e46bc651b139f9d19b0aea4bf8a6338180352801d331a5f28884691d041dad07c84aabddd8412d466d3a2ea3ddb70dee53a4d5de531b4419e7905e2074f
   languageName: node
   linkType: hard
 
@@ -4393,20 +4455,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flat-cache@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "flat-cache@npm:5.0.0"
+"flat-cache@npm:^6.1.17":
+  version: 6.1.18
+  resolution: "flat-cache@npm:6.1.18"
   dependencies:
-    flatted: "npm:^3.3.1"
-    keyv: "npm:^4.5.4"
-  checksum: 42570762052b17a1dec221d73a1e417d0ba07137de6debaabb51389cac265a12a027a895dc84e1725bc5cdde04fe8b706ad836860b05488e9a04bda9301d2529
+    cacheable: ^2.1.0
+    flatted: ^3.3.3
+    hookified: ^1.12.0
+  checksum: 8/a05a4d80fc852bd5df147d88056ee5cbb6acd369159a665542c2753596ac142e120476936569081590e92fffc7dbf32a2dbf6de3418ec551983f6fa3c2f43495
   languageName: node
   linkType: hard
 
-"flatted@npm:^3.2.9, flatted@npm:^3.3.1":
+"flatted@npm:^3.2.9":
   version: 3.3.1
   resolution: "flatted@npm:3.3.1"
   checksum: 7b8376061d5be6e0d3658bbab8bde587647f68797cf6bfeae9dea0e5137d9f27547ab92aaff3512dd9d1299086a6d61be98e9d48a56d17531b634f77faadbc49
+  languageName: node
+  linkType: hard
+
+"flatted@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "flatted@npm:3.3.3"
+  checksum: 8/8c96c02fbeadcf4e8ffd0fa24983241e27698b0781295622591fc13585e2f226609d95e422bcf2ef044146ffacb6b68b1f20871454eddf75ab3caa6ee5f4a1fe
   languageName: node
   linkType: hard
 
@@ -4480,7 +4550,7 @@ __metadata:
 
 "fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -4825,6 +4895,13 @@ __metadata:
   dependencies:
     hermes-estree: "npm:0.22.0"
   checksum: 7ae8f9a8bd9880dcb0eeb3b4efa053112a9820bdbd8cf3a500cf6192bf44501b29cd7d3b4ef03ca43d0060b348b57c0d4cab5ebb2939ba46a5327c76ac86dc99
+  languageName: node
+  linkType: hard
+
+"hookified@npm:^1.12.0, hookified@npm:^1.12.2":
+  version: 1.12.2
+  resolution: "hookified@npm:1.12.2"
+  checksum: 8/cfb60559391b818bde171b552e095feb42c9b3107849f7d7b241005f6bbeb03dfd73a8f77401caf25503454619f4c6fa3d6a4887e19c62c77db7acddc6705614
   languageName: node
   linkType: hard
 
@@ -6276,6 +6353,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"keyv@npm:^5.5.3":
+  version: 5.5.3
+  resolution: "keyv@npm:5.5.3"
+  dependencies:
+    "@keyv/serialize": ^1.1.1
+  checksum: 8/b4b673c50a42208a1837b2ccaa109c8dd55e012685a0fadcef8d2b9be8ccdc644e2415b8c793bfe801aaa56b59e1f1d836539c88cf1c505c806a9e2d4e8df540
+  languageName: node
+  linkType: hard
+
 "leven@npm:4.0.0, leven@npm:^4.0.0":
   version: 4.0.0
   resolution: "leven@npm:4.0.0"
@@ -7417,7 +7503,7 @@ __metadata:
     execa: 7.2.0
     fast-glob: 3.3.2
     fast-json-stable-stringify: 2.1.0
-    file-entry-cache: 9.0.0
+    file-entry-cache: 11.1.0
     find-cache-dir: 5.0.0
     flow-parser: 0.237.2
     get-east-asian-width: 1.2.0
@@ -7557,6 +7643,15 @@ __metadata:
   version: 6.0.4
   resolution: "pure-rand@npm:6.0.4"
   checksum: 34fed0abe99d3db7ddc459c12e1eda6bff05db6a17f2017a1ae12202271ccf276fb223b442653518c719671c1b339bbf97f27ba9276dba0997c89e45c4e6a3bf
+  languageName: node
+  linkType: hard
+
+"qified@npm:^0.5.0":
+  version: 0.5.1
+  resolution: "qified@npm:0.5.1"
+  dependencies:
+    hookified: ^1.12.2
+  checksum: 8/e7e776c6376b1b4f4fe212b27e2fd7dde532adcd91e710b64df488d5cc8cf83a7713a14667a9653fd2d61f3826ae1e432a3f1f617c13eb3d10f60e3b629c4948
   languageName: node
   linkType: hard
 
@@ -7814,7 +7909,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -7827,7 +7922,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^2.0.0-next.5#~builtin<compat/resolve>":
   version: 2.0.0-next.5
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -8777,7 +8872,7 @@ __metadata:
 
 "typescript@patch:typescript@5.5.2#~builtin<compat/typescript>":
   version: 5.5.2
-  resolution: "typescript@patch:typescript@npm%3A5.5.2#~builtin<compat/typescript>::version=5.5.2&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A5.5.2#~builtin<compat/typescript>::version=5.5.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
